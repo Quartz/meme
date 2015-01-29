@@ -54,6 +54,7 @@ var MEME_SETTINGS = {
   // NOTE: only populate the "data" attributes with base64 data when concerned about Cross-Origin requests...
   // Otherwise, just leave "data" attributes blank and allow images to load from your server.
   watermarkOpts: [
+    {text: 'None', value: ' '},
     {text: 'Vox', value: '<%= image_path("vox.png") %>', data: '<%= asset_data_uri("vox.png") %>'},
     {text: 'The Verge', value: '<%= image_path("theverge.png") %>', data: ''}
   ],
